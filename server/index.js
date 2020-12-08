@@ -11,7 +11,7 @@ app.use(cors());
 mongoose.connect("mongodb://localhost:27017/food", {
   useNewUrlParser: true,
 });
-
+//test
 app.post("/insert", async (req, res) => {
   const foodName = req.body.foodName;
   const days = req.body.days;
